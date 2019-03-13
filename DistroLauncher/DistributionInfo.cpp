@@ -11,6 +11,10 @@ bool DistributionInfo::CreateUser(std::wstring_view userName)
 	DWORD exitCode;
 	std::wstring commandLine = L"/usr/sbin/useradd -m ";
 	commandLine += userName;
+	// Add as sudoer
+	commandLine += L" && echo '";
+	commandLine += userName;
+	commandLine += L" ALL=(ALL) ALL' >> /etc/sudoers";
 	HRESULT hr = g_wslApi.WslLaunchInteractive(commandLine.c_str(), true, &exitCode);
 	if ((FAILED(hr)) || (exitCode != 0)) {
 		return false;

@@ -75,15 +75,15 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <PackageCertificateKeyFile>DistroLauncher-Appx_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>DistroLauncher-Appx_StoreKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Auto</AppxBundle>
-    <PackageCertificateThumbprint>0048A549B0E8F91B9BC635ED9C343D05D8C92822</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>5CF08FA47E832C7F98FF27006D12EAED80620F29</PackageCertificateThumbprint>
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
     <AppxBundlePlatforms>x64</AppxBundlePlatforms>
     <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
     <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
-    <AppxPackageDir>C:\Users\Hayden\OneDrive\Desktop\</AppxPackageDir>
+    <AppxPackageDir>C:\Users\Max\Documents\Code\WCC7\DistroLauncher-Appx\..\AppPackages</AppxPackageDir>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>

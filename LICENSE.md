@@ -4,7 +4,7 @@
 
 # Trademarks
 
-- WLinux and Whitewater Foundry are trademarks of Whitewater Foundry, Ltd. Co. You may use the WLinux and Whitewater Foundry trademark in any lawful manner in compliance with your local trademark laws.
+- WLinux and Whitewater Foundry are trademarks of Whitewater Foundry, Ltd. Co. See [website](https://www.whitewaterfoundry.com/)
 
 - Microsoft®, Windows®, Microsoft Store, and Microsoft InTune®, are registered trademarks and/or trademarks of [Microsoft Corporation](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx). See [Microsoft Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx).
 
@@ -69,6 +69,9 @@ Components from Whitewater Foundry, Ltd. Co.:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE
+
+Components from CERN:
+See http://linux.web.cern.ch/linux/centos7/ for additional information
     
 Components from Scientific Linux:
 **WLinux Enterprise is not endorsed by or affiliated with Fermi National Accelerator Laboratory or the United States Department of Energy.**

@@ -49,7 +49,7 @@ Usage:
 
 MessageId=1006 SymbolicName=MSG_STATUS_INSTALLING
 Language=English
-Unpacking Linux filesystem image, this may take a few minutes...
+Unpacking Linux filesystem image and install additional packages, this may take a few minutes...
 .
 
 MessageId=1007 SymbolicName=MSG_INSTALL_SUCCESS
@@ -69,7 +69,7 @@ Enter new UNIX username: %0
 
 MessageId=1010 SymbolicName=MSG_CREATE_USER_PROMPT
 Language=English
-Please create a default Linux user account. The username does not need to match your Windows username.
+Please create a default Linux user account. The username can be anything, but if you have a CERN account, CERN username is recoomanded.
 .
 
 MessageId=1011 SymbolicName=MSG_PRESS_A_KEY
@@ -96,5 +96,6 @@ Please create a root account password. This is the account used to perform admin
 
 MessageId=1015 SymbolicName=MSG_WELCOME_MSG_PROMPT
 Language=English
-Welcome to WLinux Enterprise Edition.
+Welcome to CERN Community ENTerprise Operating System 7!
 .
+

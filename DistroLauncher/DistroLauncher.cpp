@@ -60,6 +60,12 @@ HRESULT InstallDistribution(bool createUser)
 		return hr;
 	}
 
+	// Install additional packages
+	hr = g_wslApi.WslLaunchInteractive(L"yum install -y passwd sudo", true, &exitCode);
+	if (FAILED(hr)) {
+		return hr;
+	}
+
 	// Display welcome
 	Helpers::PrintMessage(MSG_WELCOME_MSG_PROMPT);
 
