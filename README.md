@@ -1,6 +1,6 @@
-# ENTerprise Linux on WSL
+# Enterprise Linux on WSL
 
-**This is a Linux distribution for Windows Subsystem for Linux (WSL) based on [CERN Linux 7](http://linux.web.cern.ch/linux/centos7/) which in turn based on CentOS 7**
+This is a Linux distribution for Windows Subsystem for Linux (WSL) based on [CERN Linux 7](http://linux.web.cern.ch/linux/centos7/) which in turn based on CentOS 7.
 This project is a fork from [WLinux Enterprise Edition](https://www.whitewaterfoundry.com/wlinux-enterprise-edition/)
 
 ### Legal
